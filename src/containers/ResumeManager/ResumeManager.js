@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
+import Navbar from '../../components/Navbar/Navbar';
 
 class ResumeManager extends Component {
     render() {
         return (
             <main className="container-fluid">
-                <nav>Navbar</nav>
+                <Navbar/>
                 <section>Profil page</section>
                 <footer>Pied de page</footer>
             </main>

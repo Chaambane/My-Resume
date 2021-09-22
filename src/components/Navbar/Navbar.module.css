@@ -1,0 +1,29 @@
+.navbar{
+    width: 100%;
+    max-height: 100%;
+    background-color: #030002;
+    margin-top: 0.2rem;
+}
+.navbarNav{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.navbarNavItem > li {
+    border-bottom: 0.1rem solid #fff;
+    margin-right: 2rem;
+}
+.navbarNavItem > li:hover{
+    border-top: 0.2rem solid #63e512;
+    border-bottom: 0.2rem solid #63e512;
+    border-radius: 1rem;
+    background-color: #fff;
+    transition: 0.3s ease-in;
+}
+.navbarNavItem > li > a{
+    font-size: 1.1rem;
+    color: #fff !important;
+}
+.navbarNavItem > li > a:hover{
+    font-size: 1.2rem;
+    color: #989797 !important;
+}
