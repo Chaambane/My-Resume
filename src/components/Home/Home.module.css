@@ -1,0 +1,41 @@
+/* Moi */
+.moi{
+    background-color: #000 !important;
+    height: 300px;
+    border: 0.5rem solid #fff;
+    border-radius: 1rem;
+}
+.monNom{
+    color: #fff !important;
+    position: relative;
+    top: 8rem;
+    left: 4rem;
+}
+.monNom:hover{
+    font-size: 5rem;
+}
+.image{
+    height: 100%;
+}
+.image > img{
+    width: 50%;
+    height: 90%;
+    margin-top: 1rem;
+    position: relative;
+    left: 50%;
+    border: 0.5rem solid #0dcaf0;
+}
+.presentation{
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    border-right: 0.5rem solid #fff;
+}
+
+.imgAndCompetence{
+    border-left: 0.5rem solid green;
+}
+/* MISSION */
+.mission{
+    border: 2px solid black;
+    margin: 5rem;
+}
