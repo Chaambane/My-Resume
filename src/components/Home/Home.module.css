@@ -1,29 +1,14 @@
 /* Moi */
-.moi{
-    background-color: #000 !important;
-    height: 300px;
-    border: 0.5rem solid #fff;
-    border-radius: 1rem;
+.perso{
+    height: 350px;
+    color: #000 !important;
+    background-color: #08F;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-.monNom{
-    color: #fff !important;
-    position: relative;
-    top: 8rem;
-    left: 4rem;
-}
-.monNom:hover{
-    font-size: 5rem;
-}
-.image{
-    height: 100%;
-}
-.image > img{
-    width: 50%;
-    height: 90%;
-    margin-top: 1rem;
-    position: relative;
-    left: 50%;
-    border: 0.5rem solid #0dcaf0;
+.persoBox{
+    color: #fff;
+    padding: 4rem;
 }
 .presentation{
     font-weight: bold;

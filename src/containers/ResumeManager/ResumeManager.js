@@ -9,7 +9,6 @@ class ResumeManager extends Component {
             <main className={["container-fluid", Classes.main].join(' ')}>
                 <Navbar/>
                 <Home/>
-                <footer>Pied de page</footer>
             </main>
         )
     };
