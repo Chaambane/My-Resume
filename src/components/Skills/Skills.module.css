@@ -1,0 +1,14 @@
+.sectionSkills{
+    margin-top: 4rem;
+    padding: 1rem;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(78,208,242,1) 35%, rgba(0,212,255,1) 100%);
+}
+.sectionSkills > h3{
+    border-bottom: 0.4rem solid #fff;
+    border-radius: 1rem;
+}
+.boxProgress > div{
+    height: 2rem;
+    border: 0.1rem solid #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
