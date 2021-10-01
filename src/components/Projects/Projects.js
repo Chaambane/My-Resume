@@ -2,6 +2,7 @@ import React from 'react';
 import Classes from './Projects.module.css';
 import ProjectCard from './ProjectCard/ProjectCard';
 import TravelBooking from '../../assets/images/projets/TravelBooking.jpg'
+import ToDoList from '../../assets/images/projets/ToDoList.jpg'
 
 const projects = (props) => (
     <section className="container mt-4" id="projets">
@@ -13,7 +14,12 @@ const projects = (props) => (
                 altP={"travel booking"}
                 projectName={"Travel-Booking"}
             />
-            <ProjectCard/>
+            <ProjectCard
+                href={"#to-do-list.com"}
+                imgP={ToDoList}
+                altP={"to do list"}
+                projectName={"To-do List"}
+            />
             <ProjectCard/>
             <ProjectCard/>
             <ProjectCard/>
