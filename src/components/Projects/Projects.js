@@ -3,6 +3,7 @@ import Classes from './Projects.module.css';
 import ProjectCard from './ProjectCard/ProjectCard';
 import TravelBooking from '../../assets/images/projets/TravelBooking.jpg'
 import ToDoList from '../../assets/images/projets/ToDoList.jpg'
+import FullCountries from '../../assets/images/projets/FullCountries.jpg'
 
 const projects = (props) => (
     <section className="container mt-4" id="projets">
@@ -20,7 +21,12 @@ const projects = (props) => (
                 altP={"to do list"}
                 projectName={"To-do List"}
             />
-            <ProjectCard/>
+            <ProjectCard
+                href={"#Pays du monde"}
+                imgP={FullCountries}
+                altP={"full-countries"}
+                projectName={"Pays du monde"}
+            />
             <ProjectCard/>
             <ProjectCard/>
             <ProjectCard/>
